@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML | JS-OBJECT</title>
+	</head>
+	<body>
+		<script>
+		function name(){}
+		let name = function(){
+
+		}
+			let user = {
+				first_name:"Jay",
+				last_name:"Patel",
+				phone:9824864702,
+				full_name:function (){
+					return user.first_name+" "+user.last_name;
+				}
+			};
+			console.log(user);
+			console.log(user.first_name);
+			user.first_name= "amit";
+			user.email = "jay@gmail.com";
+
+			let num = "sdsd";
+			if(num%2==0){
+				console.log("Even")
+			}
+			else if(typeof(num)=="number"){
+				console.log("Odd")
+			}
+			else{
+				console.log("Invalid Input")
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML | JS-Function</title>
+	</head>
+	<body>
+		<script>
+			// function add (a,b){
+			// 	return a+b;
+			// }
+			// console.log(add(5,10));
+			var name = "Jay";//Global Scope
+			function greeting(){
+				var greet = "Hello ";//Local Scope
+				name="Patel";
+				console.log(greet+name)
+			}
+			greeting();
+			console.log(greet);
+		</script>
+	</body>
+</html>
